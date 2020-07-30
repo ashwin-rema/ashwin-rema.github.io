@@ -1,0 +1,132 @@
+*{
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url(https://cdn.pixabay.com/photo/2020/07/02/10/25/moonlight-5362539_1280.jpg);
+	background-position: cover;
+}
+
+
+h1{
+	text-align: center;
+	font-family:Georgia, serif; 
+	font-weight: bold;
+	font-style: inherit;
+
+    color: blue;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.r1{
+	width: 100%;
+}
+
+.ra{
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 100%;
+	background-color: grey;
+	position: relative;
+	border: 2px solid black;
+	margin: 10px;
+	padding: 45 10 10 10;
+}
+
+.rab{
+	font-family:  "Times New Roman", Times, serif;
+	font-size: 100%;
+	font-style: italic;
+	background-color: grey;
+	position: relative;
+	border: 2px solid black;
+	margin: 10px;
+	padding: 45 10 10 10;
+}
+
+.rabb{
+	font-family:  "Times New Roman", Times, serif;
+	font-size: 100%;
+	font-style: italic;
+	background-color: grey;
+	position: relative;
+	border: 2px solid black;
+	margin: 10px;
+	padding: 45 10 10 10;
+	float: left;
+}
+
+#attt{
+	width: 150px;
+	height: 35px;
+	background-color:#D496BE;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 170%;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	border: 2px solid black;
+}
+
+#att{
+	width: 150px;
+	height: 35px;
+	background-color:#D42012;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 170%;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	border: 2px solid black ;
+}
+
+#at{
+	width: 150px;
+	height: 35px;
+	background-color:#E7EEA0;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 170%;
+	text-align: center;
+	position: absolute;
+	top:0;
+	right: 0;
+	margin: 0;
+	border: 2px solid black;
+}
+
+@media(min-width: 992px){
+	.c1{
+		width: 33.3333%;
+		float: left;
+		border:2px white;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.c2{
+		width: 50%;
+		float: left;
+		border: 2px white;
+    }
+    .c4{
+    	width: 100%;
+    	float: left;
+    	border: 2px white;
+    }
+}
+
+@media(max-width: 767px){
+	.c3{
+		width: 100%;
+		float: left;
+		border: 2px white;
+	}
+}
